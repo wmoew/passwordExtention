@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () =>{
     const body = document.querySelector('body');
 
     body.addEventListener('keydown' ,(e)=>{
-        if(e.key === 'p'){
+        if(e.code === 'KeyP'){
             // console.log("test");
             alert("Password generated: " + generatePassword());
             return;
